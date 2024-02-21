@@ -4,7 +4,9 @@
   "description": "Visualisation of kickstarter campaigns with a treemap diagram using D3.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.html",
+    "build": "webpack ./src/index.js --mode=development"
   },
   "keywords": [
     "d3",

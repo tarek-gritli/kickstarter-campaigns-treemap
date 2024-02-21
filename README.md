@@ -1,11 +1,13 @@
 # Kickstarter Treemap Diagram
 
 This project is a data visualization of the top 100 most pledged kickstarter campaigns grouped by category using a treemap diagram.
+The data was obtained from [source](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json)
 
 ## Table of Contents
 
 - [Features](#features)
 - [Technologies](#technologies)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -15,12 +17,16 @@ This project is a data visualization of the top 100 most pledged kickstarter cam
 - Customize the color scale for visualizing different categories
 - Interactive tooltips to show detailed information about campaigns
 
-## Technologies Used
+## Technologies
 
 - HTML
 - CSS
 - JavaScript
 - D3.js
+
+## Demo
+
+You can see a live demo of the project [here](https://kickstarter-campaigns-treemap.netlify.app/).
 
 ## Installation
 

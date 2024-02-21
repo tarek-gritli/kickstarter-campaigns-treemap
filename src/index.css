@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box
+}
+main,body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI';
+}
+#tooltip{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    text-align: center;
+}
+.treemap{
+    min-width: 1000px;
+    min-height: 600px;
+}
+.tile:hover{
+    stroke: black;
+}
+#legend{
+    min-height: 500px;
+}
